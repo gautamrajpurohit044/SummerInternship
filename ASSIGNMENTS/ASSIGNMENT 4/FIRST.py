@@ -8,7 +8,6 @@ address_book = [
     ["Anjali Mehta", "Jodhpur", "9012345678", "anjali@example.com"]
 ]
 
-# Create and write to CSV file
 with open("address_book.csv", mode="w", newline="") as file:
     writer = csv.writer(file)
     writer.writerows(address_book)
